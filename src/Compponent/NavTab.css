@@ -1,0 +1,44 @@
+
+.nav-container {
+  width: 100%;
+}
+
+.custom-nav-tabs {
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+  width: 100%;
+ 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-evenly; /* Even spacing between tabs */
+   list-style-type: none; /* Added to hide bullets */
+}
+
+.custom-nav-tabs .nav-item {
+  padding: 0 5px;
+}
+
+.custom-nav-tabs .nav-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+
+.custom-nav-tabs .nav-link:hover,
+.custom-nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #0000ff;
+  border-color: #0000ff;
+}
+
+.nav-content {
+  padding: 20px;
+  overflow-y: auto;
+}

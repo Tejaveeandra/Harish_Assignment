@@ -1,0 +1,83 @@
+
+.student-info-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f0f4f8;
+  padding: 16px 24px;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+
+.student-info-left {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.icon-box {
+  width: 48px;
+  height: 48px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+}
+
+.student-info-title {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.student-info-subtitle {
+  margin: 4px 0 0 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.student-info-segment {
+  display: flex;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.segment-button {
+  padding: 8px 16px;
+  background-color: #e0e0e0;
+  border: none;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.segment-button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.segment-button.more {
+  position: relative;
+}
+
+.dropdown-indicator {
+  margin-left: 4px;
+}
+
+/* Remove underline on links */
+.segment-button:hover {
+  background-color: #ccc;
+}
+
+.student-info-content {
+  margin-top: 16px;
+  padding: 16px;
+  background-color: white;
+  border-radius: 4px;
+}
